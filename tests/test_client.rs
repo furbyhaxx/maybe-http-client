@@ -1,4 +1,4 @@
-use http_client::{HttpClient, Query};
+use maybe_http_client::{HttpClient, Query};
 
 #[maybe_async::test(
     feature="sync",
